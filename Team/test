@@ -1,0 +1,4 @@
+$(document).on(`click`, `.kek`, function () {
+    console.log('TEST',this)
+    $(this).addClass("important")
+  });

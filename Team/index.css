@@ -1,0 +1,165 @@
+html {
+    background: #e8f4f5;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 500px;
+}
+
+.input-field {
+    display: inline-flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    border: 1px solid #55555530;
+    background-color: #fff;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+}
+
+#todo-input {
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-bottom: 2px solid #fff;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: all 0.2s;
+}
+#todo-input:focus {
+    outline: none;
+    border-color: #00c496;
+}
+.btn-color {
+    border: none;
+    border-radius: 4px;
+    margin-left: 3px;
+    cursor: pointer;
+    display:block;
+    height:20px;
+    width:20px;
+    line-height:70px;
+    text-align:center;
+}
+
+.btn {
+    border: none;
+    color: #fff;
+    background-color: #00a496;
+    border-radius: 4px;
+    margin-left: 20px;
+    transition: all 0.5s;
+    font-size: 16px;
+    display:block;
+    height:40px;
+    width:80px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #00c496;
+}
+
+.list-element {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 1px;
+}
+
+.list-element label{
+    border-right: 1px solid #eee;
+    padding: 16px;
+}
+
+.list-element .kek {
+    color: #fff;
+    margin-left: 30px;
+}
+
+
+.red {
+background-color: #f16c68;
+/* color: #f16c68 */
+}
+
+.pink {
+background-color: #f379a2;
+}
+
+.purple {
+background-color: #916fcb;
+}
+
+.yellow {
+background-color: #5eb3f6;
+}
+
+
+.blue {
+background-color: #67d7e4;
+}
+
+.turquoise {
+background-color: #fddf82;
+}
+
+
+
+.button-width{
+display: inline-flex;
+}
+
+/* .check-todo {
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: baseline;
+    align-items: stretch;
+    -webkit-align-self: center; 
+     align-self: center;
+} */
+/* body {
+    display: grid;
+    background-color: #eeeeee;
+    grid-template-columns: 10% 10%;
+  }
+  aside {
+     color: #fff;
+     background-color: #8cacea;
+      width: 100%;
+  }
+  
+  main {
+    width: 75%;
+  }
+  #todo-input {
+    table-layout: fixed;
+display: inline;
+} */
+
+
+/* .lol {
+    background-color: red;
+}
+
+.important {
+    background-color: red;
+} */
